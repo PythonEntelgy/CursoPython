@@ -31,7 +31,6 @@ while True:
         if moves[gameIndex-i] == userMove:
             break
 
-    print(i)
     if i % 2 == 0:
         print("Machine wins!")
     else:
